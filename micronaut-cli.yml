@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.school
+testFramework: kotest
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [annotation-api, app-name, gradle, http-client, kotest, kotlin, kotlin-application, logback, mongo-reactive, mongo-sync, netty-server, readme, shade, testcontainers, yaml]

@@ -12,9 +12,10 @@ const data = new SharedArray('users', function () {
 });
 
 export default function () {
-  for (const userPwdPair of data) {
-    var randomUser = data[Math.floor(Math.random() * data.length)];
-  }
+
+  var randomUser = data[Math.floor(Math.random() * data.length)];
+  var result = data[__ITER % data.length]
+
   const url = 'http://localhost:8080'
   const params = {
     headers: {
